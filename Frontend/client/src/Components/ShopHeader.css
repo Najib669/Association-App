@@ -1,0 +1,43 @@
+.shopHeader {
+  position: sticky;
+  top: 15vh;
+  min-height: 50px;
+  max-height: 50px;
+  width: 84%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  border: solid white;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #073b9b, #02ddd2, #073b9b);
+}
+.leftSide h1 {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 4vh;
+  margin-top: 10px;
+}
+i {
+  color: white;
+}
+i,
+h1:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+.cart {
+  padding-right: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.cart-length {
+  margin: 3px;
+  font-size: 14px;
+  font-weight: 700;
+  vertical-align: super;
+  color: rgb(255, 196, 0);
+}

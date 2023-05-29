@@ -1,0 +1,66 @@
+/* join our community buttom */
+
+ .img {
+  background: url(../img/colors.jpg) no-repeat center center fixed;
+  background-size: cover;
+ }
+
+.Login {
+    margin: 0;
+    opacity: 0.8;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    border: solid white;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, #073b9b, #02ddd2, #073b9b);
+  }
+
+
+  button {
+    cursor: pointer;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+    color: rgba(255,255,255,0.5);
+    font-size: 20px;
+    border-radius: 4px;
+    box-shadow: inset 0px 3px 5px rgba(255,255,255,0.5), 0px 0px 10px rgba(0,0,0,0.15);
+    background: rgb(2,0,36);
+  background: linear-gradient(45deg, rgba(2,0,36,0) 5%, rgba(255,255,255,.5) 6%, rgba(255,255,255,0) 9%, rgba(255,255,255,.5) 10%, rgba(255,255,255,0) 17%, rgba(255,255,255,.5) 19%, rgba(255,255,255,0) 21%);
+    background-size: 150%;
+    background-position: right;
+    transition: 1s;
+  }
+  
+  button:hover {
+    background-position: left;
+    color: white;
+    box-shadow: inset 0px 3px 5px rgba(255,255,255,1), 0px 0px 10px rgba(0,0,0,0.25);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      width: 100%;
+      font-family: "Poppins", sans-serif;
+      height: 100vh;
+    }
+  }
+.cbtn{
+background-color: darkorange;  
+border: solid aliceblue;
+color: white;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px 0px 0px 5px;
+  position: fixed;
+top: 50%;  right: 0;
+}  
+

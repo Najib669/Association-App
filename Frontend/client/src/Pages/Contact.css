@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --light: #bebebe;
+  --dark: #ffffff;
+  --green: #006eff;
+  background: none;
+}
+
+.contact {
+  background: url("../../public/img/pexels-flo-maderebner-869258.jpg") center;
+  background-size: cover;
+  line-height: 20px;
+  height: 100vh;
+  bottom: 0vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* h1 {
+  color: var(--green);
+} */
+
+/* .contact {
+  margin-top: 5vh;
+} */
+
+form {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+  padding: 35px;
+  width: 500px;
+  min-height: 200px;
+  background-color: #fff;
+  opacity: 0.7;
+  border-radius: 5px;
+  border: solid #034fd3 thin;
+  box-shadow: 0 9px 23px 0 rgba(2, 193, 53, 0.03);
+}
+
+.formRow {
+  margin: 15px;
+}
+
+.formInput {
+  padding: 15px 10px;
+  background-color: var(--dark);
+  box-shadow: 0 0 0 1px var(--green);
+  border: none;
+  color: var(--green);
+}
+
+.formInput:focus {
+  background-color: var(--dark);
+  outline: none;
+  box-shadow: 0 0 0 2px var(--green);
+  color: var(--light);
+}
+
+.formInput::placeholder {
+  color: var(--green);
+  opacity: 1;
+}
+
+.formInput:focus::placeholder {
+  color: var(--light);
+  opacity: 1;
+}
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#notifyToast {
+  color: #fff;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: 75px;
+  background-color: var(--green);
+}
+
+.submit-btn {
+  border: solid white;
+  background-image: linear-gradient(to right, #073b9b, #02ddd2, #073b9b);
+
+  color: white !important;
+  padding: 5px 50px;
+  border: 1px solid var(--green);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.submit-btn:hover {
+  background-color: var(--green);
+  color: var(--dark) !important;
+  border: solid thin;
+}
+
+.submit-btn:disabled:hover {
+  background-color: var(--dark);
+  color: var(--green) !important;
+  cursor: wait;
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
+}

@@ -1,0 +1,100 @@
+@media only screen and (max-width: 600px) {
+ 
+  .carousel {
+    z-index: 999;
+    margin-top: 0rem;
+  }
+}
+.button {
+background-image: linear-gradient(to right, #073b9b, #02ddd2, #073b9b);
+  font-size: 15px;
+  background-size:contain;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  opacity: 1;
+  z-index: 999;
+  border-radius: 15px;
+}
+.abtitle{
+  display: flex;
+  justify-content: center;
+  height: 0rem;
+}
+
+.page_intro  {
+  font-size: 20px;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  font-family: Poppins;
+  margin: auto;
+  margin-bottom: 150px;
+  /* display: flex;
+  flex-direction: column;
+  justify-items: center; */
+  padding: 2rem;
+  background: #48c5f2;
+}
+
+.first_intro {
+  padding: 7rem 2rem 0rem 4rem;
+  font-size: 16px;
+  color: #ffffff;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.h2 {
+  background: url(https://raw.githubusercontent.com/s1mpson/-/master/codepen/black-lives-matter/victim-collage.png);
+  background-size: 40%;
+  background-position: 50% 50%;
+  color: hsla(0, 0%, 0%, 0.08);
+  animation: zoomout 10s ease 500ms forwards;
+}
+h5 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 65px;
+  text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px 1px 10px #0c7cd7;
+  color: rgb(255, 255, 255);
+  height: 10rem;
+}
+.slider_outer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+.pp {
+  color: #ffffff;
+  height: 5rem;
+}
+
+.p2 {
+  padding: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px;
+  margin: auto;
+  font-size: 16px;
+  background-color: #cfd0d0;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.text-center{
+color:#ffffff;
+margin-top: 20px;}
+
+h1 .actitle{
+  display: flex;
+  justify-content: center;
+}
+.griddert {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+margin-left: 150px;
+;}

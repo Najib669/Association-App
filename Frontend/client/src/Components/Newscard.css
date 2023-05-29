@@ -1,0 +1,46 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgb(51, 193, 228) !important;
+  transition: all 0.7s linear;
+}
+
+.card-body {
+  padding: 2rem 0 !important;
+  shape-outside: -moz-radial-gradient(black);
+  height: 15vh;
+  margin-top: 0rem;
+  
+}
+
+.card-text {
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+}
+.card-title {
+  color: rgb(18, 37, 184);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transform: scale(1);
+
+  transition: all 1s ease-in-out;
+}
+
+.card-img-top:hover {
+  transform: scale(1.8);
+}

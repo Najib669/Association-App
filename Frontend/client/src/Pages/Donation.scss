@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+// *{
+//   background-image:url(../img/montain.jpg)}
+
+.donation {
+  margin-top: 10vh;
+  min-height: 100vh;
+  padding: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.form {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  padding: 35px;
+  width: 500px;
+  min-height: 200px;
+  background-color: #fff;
+  opacity: 0.7;
+  border-radius: 5px;
+  border: solid #1149a8 thin;
+  box-shadow: 0 9px 23px 0 rgba(2, 193, 53, 0.03);
+  h2 {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border: dashed #bebfc1 thin;
+  }
+  input {
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+    padding: 5px 10px;
+    background: rgba(173, 232, 255, 0.634);
+    border: 1px solid #e2e2e2;
+    color: #000000;
+    font-size: 12px;
+    &:focus {
+      outline: 1px solid #1149a8;
+    }
+  }
+  select {
+    height: 30px;
+    margin-top: 15px;
+    padding: 0 10px;
+    font-size: 12px;
+    text-align: center;
+    appearance: none;
+    background: rgba(173, 229, 255, 0.634);
+    border: 1px solid #e2e2e2;
+    color: #000000;
+    cursor: pointer;
+    &:focus {
+      outline: 1px solid #17007d;
+    }
+  }
+  textarea {
+    height: 120px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px 20px;
+    font-size: 12px;
+    background: rgb(213, 213, 213);
+    border: 1px solid #e2e2e2;
+    color: #000000;
+    border-radius: 10px;
+    resize: none;
+    &:focus {
+      outline: 1px solid #ffffff;
+    }
+  }
+  input[type="checkbox"] {
+    display: inline;
+    font-size: 11px;
+    width: 20px;
+    height: 15px;
+    margin-top: 0;
+    margin-right: 25px;
+  }
+  .checkbox {
+    display: flex;
+    align-items: center;
+  }
+  button {
+    display: block;
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    border: solid white;
+    background-image: linear-gradient(to right, #073b9b, #02ddd2, #073b9b);
+  }
+  .error {
+    color: #2c6bca;
+    margin-top: 8px;
+  }
+}

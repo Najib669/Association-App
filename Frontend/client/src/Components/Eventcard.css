@@ -1,0 +1,90 @@
+/* .cardbox {
+  height: 8rem;
+  width: 600px;
+
+} */
+.cardd {
+  background: rgb(234, 234, 234);
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  padding: 10px;
+  display: flex;
+  box-shadow: 0 5px 20px rgb(7 140 228 / 45%);
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+  /* align-content: space-between;
+  align-items: flex-start; */
+}
+
+.cardd:hover {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.imgg {
+  position: relative;
+  max-width: 330px;
+  max-height: 160px;
+  top: -40px;
+  right: 10px;
+
+}
+
+.imgg img {
+  position: relative;
+  width: auto;
+  max-width: 90%;
+  border-radius: 5px;
+  height: 10rem 10rem;
+}
+
+.contentt {
+  flex-direction: row;
+  color: rgb(9, 83, 210);
+  flex-wrap: nowrap;
+}
+
+/* .icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  bottom: 15px;
+  right: 45px;
+  z-index: 1;
+  opacity: 0;
+  color: rgb(167, 92, 92);
+}
+
+.icon {
+  position: relative;
+  right: 25px;
+
+} */
+.cardd:hover .icons {
+  animation: animo 1s;
+  animation-fill-mode: forwards;
+}
+.name {
+  width: 100%;
+  height: 8.3rem;
+  right: 12px;
+  color: rgb(0, 40, 151);
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes animo {
+  0% {
+    transform: rotate(-20deg);
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

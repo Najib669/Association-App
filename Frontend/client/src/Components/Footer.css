@@ -1,0 +1,51 @@
+.copyright-text {
+  color: rgb(1, 91, 208);
+  font-size: 10px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+  margin-block-start: 2.5em;
+  margin-block-end: 2.5em;
+  margin-inline-start: center;
+  margin-inline-end: center;
+  width: 40vh;
+  padding: 0rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.site-footer {
+  z-index: 999;
+
+  position: fixed;
+  bottom: 0vh;
+width: 100%; 
+background-image: linear-gradient(
+  to bottom,
+  rgba(255, 0, 0, 0),
+  rgb(94, 195, 220)
+
+);
+margin-top: 0;
+padding : 0;
+    
+}
+footer::before {
+  content: "\2014\00A0";
+}
+
+/* @media (max-width: 767.98px) {
+  .footer  {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+} */
+

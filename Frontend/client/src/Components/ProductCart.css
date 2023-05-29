@@ -1,0 +1,7 @@
+.buttonshop {
+  background-color: rgb(230, 242, 253);
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem 1;
+}
